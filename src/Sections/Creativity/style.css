@@ -1,0 +1,40 @@
+.creativity-wrapper{
+  background: var(--bg);
+  height: 900px;
+}
+.creativity-wrapper section{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.creativity-wrapper section p{
+  color: #000;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 189.5%; 
+  padding: 10px 0 50px;
+}
+.creativity-wrapper section article{
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ column-gap: 70px;
+}
+.creativity-wrapper section article img{
+  height: 500px;
+  object-fit: contain;
+}
+.creativity-wrapper section article .crai-center{
+  height: 600px;
+  object-fit: contain;
+}
+.creativity-wrapper section div{
+  padding: 60px 0 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  column-gap: 10px;
+}

@@ -4,4 +4,5 @@ import Connect from "./Connect/Connect";
 import Creativity from "./Creativity/Creativity";
 import Features from "./Features/Features";
 import Footer from './Footer/Footer'
-export {Header}
+import Works  from './Works/Works'
+export {Header,About,Connect,Creativity,Features,Footer,Works}

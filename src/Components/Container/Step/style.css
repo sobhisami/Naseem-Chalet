@@ -1,0 +1,23 @@
+.step,.line{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  row-gap: 15px;
+  text-align: center;
+}
+.line{
+  padding: 0 20px;
+  margin-bottom: 60px;
+}
+.step img{
+  width: 102px;
+  height: 102px;
+  object-fit: contain;
+}
+.line span{
+  color: #989898;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 189.5%; 
+}

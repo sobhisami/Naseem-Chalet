@@ -1,7 +1,7 @@
 import './style.css'
-const Title = ({children}) => {
+const Title = ({children,variant}) => {
   return (
-    <span className="title">{children}</span>
+    <span className={variant==="w-title" ? "w-title" :"title"}>{children}</span>
   )
 }
 

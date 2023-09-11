@@ -1,0 +1,90 @@
+.header{
+  background: var(--bg);
+  background-color: var(--bgColor);
+  background-blend-mode: overlay;
+  border-bottom-left-radius: 105px;
+  border-bottom-right-radius: 105px;
+  margin-bottom: 330px;
+}
+
+.header ul{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 50px 0 106px;
+}
+.header header{
+  padding-bottom: 350px;
+}
+.header ul li {
+  list-style: none;
+}
+.header ul li a{
+  text-decoration: none;
+  color: var(--04, #FFF);
+  font-size: 18px;
+  font-weight: 400;
+}
+.header ul li a:hover{
+  color: black;
+}
+.header ul li a.active{
+  font-weight: 800;
+}
+.header ul li .science{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  column-gap: 5px;
+}
+.header ul li .user{
+  display: flex;
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  background: rgb(105, 185, 228);
+  justify-content: center;
+  align-items: center;
+}   
+.header .download{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.header .download article{
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  position: relative;
+  width: 100%;
+}
+.header .download article div:last-of-type{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  row-gap: 10px;
+  top: 250px;
+  position: absolute;
+}
+.header .download article div:first-of-type{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 30px;
+  right:60px;
+}  
+
+header .download article div:first-of-type img{
+  object-fit: contain;
+  width: 100%;
+}
+.img-left{
+  margin-left: 130px;
+}
+.img-center{
+  position: absolute;
+  right: 16px;
+}

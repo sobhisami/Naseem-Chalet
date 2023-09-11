@@ -4,6 +4,11 @@
   margin: 0;
   box-sizing: border-box;
 }
+:root{
+   --bg: url("../public/images/about.png");
+   --bgColor:#44a8ddc7;
+}
 body{
   font-family: 'Tajawal', sans-serif;
+  
 }

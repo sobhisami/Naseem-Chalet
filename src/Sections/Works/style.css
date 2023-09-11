@@ -1,0 +1,23 @@
+.works{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding-top: 100px;
+}
+.works p{
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 189.5%; 
+  padding: 15px 0 50px;
+}
+.works article{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.works .work-img img{
+  /* height: 300px; */
+  object-fit: contain;
+}

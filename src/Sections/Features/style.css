@@ -1,0 +1,38 @@
+
+.features article:first-of-type{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}  
+.features article:first-of-type p{
+  color: #000;
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 189.5%; 
+}
+.features article:last-of-type{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  column-gap: 20px
+}
+.features article:last-of-type .sub-features{
+  display: flex;
+  flex-direction: column;
+  row-gap: 20px;
+}
+.features article:last-of-type .sub-features div{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  border-radius: 33px;
+  background: var(--02, #44A8DD);
+  width: 230px;
+  height: 68px;
+}
+
+.features-design{
+  column-gap: 25px;
+}

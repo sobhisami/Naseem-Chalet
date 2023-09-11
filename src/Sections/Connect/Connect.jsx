@@ -1,8 +1,33 @@
+import {Container, SubTitle, Title} from '../../Components'
 import './style.css'
 const Connect = () => {
   return (
     <div>
-      
+      <Container>
+        <section className='connect'>
+          <SubTitle>فورم التواصل</SubTitle>
+          <Title>تواصل معنا</Title>
+          <p>على استعداد دائم للاستماع إلى ملاحظات واقتراحات العملاء <br /> أو المستخدمين</p>
+          <form>
+            <div>
+              <label htmlFor="name">الاسم</label>
+              <input type="text"  id='name'/>
+            </div>
+            <div>
+              <label htmlFor="title">عنوان الموضوع</label>
+              <input type="text" id='title' />
+            </div>
+            <div>
+              <label htmlFor="subject">الموضوع</label>
+              <input type="text" id='subject' />
+            </div>
+            <div>
+              <button type='submit'> تأكيد وإرسال </button>
+              <span> <img src={"../../images/submit.png"} alt="submit-arrow" /></span>
+            </div>
+          </form>
+        </section>
+      </Container>
     </div>
   )
 }

@@ -1,0 +1,61 @@
+.connect{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 70px 0;
+}
+.connect p{
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 189.5%; 
+  padding-bottom: 50px;
+}
+.connect form div{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: start;
+  row-gap: 20px;
+  padding: 10px 0;
+}
+.connect form div label{
+  color: #1D1D1D;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 150%;
+}
+.connect form div input{
+  list-style: none;
+  outline: none;
+  border: none;
+  width: 550px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.30);
+  text-align: start;
+}
+.connect form div:last-of-type{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 70px;
+  background:  #44A8DD;
+  height: 56px;
+  width: 50%;
+  margin: 100px auto 0px;
+  position: relative;
+  cursor: pointer;
+}
+.connect form div:last-of-type button{
+  background: none;
+  outline: none;
+  border: none;
+  color: #FFF;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 150%;
+}
+.connect form div:last-of-type span{
+  position: absolute;
+  right: 10px;
+}

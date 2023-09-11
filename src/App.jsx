@@ -1,8 +1,16 @@
+import { About, Connect, Creativity, Features, Footer, Header ,Works} from "./Sections"
+
 const App = () => {
   return (
-    <div>
-      sobhi 
-    </div>
+    <>
+    <Header/>
+    <Features/>
+    <About/>
+    <Works/>
+    <Creativity/>
+    <Connect/>
+    <Footer/>
+    </>
   )
 }
 

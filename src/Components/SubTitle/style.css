@@ -1,0 +1,8 @@
+.sub-title,.sub-title-w{
+color: var(--03, #1D1D1D);
+font-size: 10px;
+font-weight: 400;
+}
+.sub-title-w{
+  color: #FFF !important;
+}
