@@ -21,3 +21,8 @@
   font-weight: 700;
   line-height: 189.5%; 
 }
+@media (max-width :1001px){
+  .line{
+    display: none;
+  }
+}

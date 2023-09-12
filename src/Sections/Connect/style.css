@@ -59,3 +59,11 @@
   position: absolute;
   right: 10px;
 }
+@media (max-width:600px) {
+  .connect form div input{
+    width: 300px;
+  }
+  .connect form div:last-of-type{
+    width: 60%;
+  }
+}
