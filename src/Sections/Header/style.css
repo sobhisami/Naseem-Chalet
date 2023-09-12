@@ -6,7 +6,11 @@
   border-bottom-right-radius: 105px;
   margin-bottom: 330px;
 }
-
+header .bar img{
+  height: 30px;
+  object-fit: cover;
+  display: none;
+}
 .header ul{
   display: flex;
   justify-content: space-between;
@@ -88,3 +92,106 @@ header .download article div:first-of-type img{
   position: absolute;
   right: 16px;
 }
+.ltr .header .download article div:first-of-type {
+  left:10px;
+}
+.ltr .img-right{
+  margin-right: 40px;
+}
+.ltr .img-center{
+  left: 120px;
+}
+.ltr .img-left{
+  margin-right: 155px;
+}
+@media (max-width:600px) {
+  .header{
+  margin-bottom:  30px;
+  }
+  header{
+    padding: 40px 0;
+  }
+  header .bar img{
+  display: none;
+  }
+  .header ul{
+    display: none;
+  }
+  .header .download article div:first-of-type{
+    right: -1px;
+  }
+  .header .download article div:last-of-type{
+    top: 240px;
+    left: 90px;
+  }
+  .ltr header{
+    padding: 40px 0 350px;
+  }
+  .ltr .header .download article div:first-of-type{
+    top: -3px;
+    left: -124px;
+    right: -18px;
+  }
+  .ltr .img-center{
+    right: 28px;
+  }
+  .ltr .img-left{
+    margin-right: 50px
+  }
+  .ltr .header .download article div:last-of-type{
+    left:90px
+  }
+}
+@media (min-width:600px) and (max-width:1200px){
+  .header{
+  margin-bottom:  50px;
+  }
+  .header .download article div:first-of-type{
+    right: 139px;
+    left: 136px;
+  }
+  .header .download article div:last-of-type{
+    top: 224px;
+    right: 230px;
+  }
+  .ltr .header .download article div:first-of-type{
+    top:10px;
+    left:18px
+  }
+  .img-left{
+    margin-left: 85px
+  }
+  .img-center{
+    right: 13px;
+  }
+  .ltr .img-left{
+    margin-right: 50px
+  }
+  .ltr .img-center{
+    left: 109px;
+  }
+  .ltr .header .download article div:last-of-type{
+    right: 10px;
+  }
+  .ltr .header ul{
+    padding-bottom: 30px;
+  }
+}
+@media (min-width:800px) and (max-width:991px){
+  .header .download article div:first-of-type{
+    right: 139px;
+    left: 136px;
+  }
+  .header .download article div:last-of-type{
+    top: 224px;
+    right: 560px;
+  }
+}
+@media (min-width:991px) and (max-width:1200px) {
+  .header .download article div:last-of-type{
+    top: 224px;
+    right: 680px;
+  }
+}
+
+

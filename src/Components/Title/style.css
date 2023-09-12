@@ -8,5 +8,10 @@
 }
 .w-title{
   color: #FFF;
-  
+}
+@media (max-width:600px) {
+  .title,.w-title{
+  font-size: 20px;
+  padding: 20px 0;
+  }
 }

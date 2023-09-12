@@ -1,23 +1,25 @@
 window.onload = () => {
-  let top = document.querySelector('.top');
+  let topButton = document.querySelector('.top');
 
-  window.onscroll = (e) => {
+  window.onscroll = () => {
     var scrollTop = window.pageYOffset || document.documentElement.scrollTop;
 
     if (scrollTop > 300) {
-      top.classList.add('open');
+      topButton.classList.add('open');
     } else {
-      top.classList.remove('open');
+      topButton.classList.remove('open');
     }
   };
 
-  top.onclick = () => {
+  topButton.onclick = () => {
+    // Use window.parent.top if your code is running in an iframe
     window.scrollTo({
       top: 0,
       behavior: 'smooth',
     });
   };
 };
+
 
 /* direction */
 function detectTextDirection() {

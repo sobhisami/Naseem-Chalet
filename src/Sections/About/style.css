@@ -9,6 +9,7 @@
  align-items: center;
  padding: 70px 0;
  column-gap: 55px;
+ flex-wrap: wrap;
 }
 .about article{
   display: flex;
@@ -29,4 +30,19 @@
 .about img:last-of-type{
   object-fit: contain;
   height: 250px;
+}
+@media (max-width:600px) {
+  .about{
+    justify-content: center;
+    row-gap: 30px;
+  }
+}
+@media (min-width:601px) and (max-width:1200px) {
+  .about article .w-title{
+    text-align: start ;
+  }
+  .about{
+    justify-content: center;
+    row-gap: 30px;
+  }
 }

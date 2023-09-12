@@ -31,7 +31,7 @@ const Features = () => {
                 <img src={"../../images/hightQ.png"} alt="hightQ" />
               </div>
             </div>
-            <div>
+            <div className='logo-feature'>
               <img src={"../../images/feature.png"} alt="" />
             </div>
           </article>
