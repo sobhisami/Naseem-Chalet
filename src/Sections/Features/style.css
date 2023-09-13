@@ -32,13 +32,89 @@
   width: 230px;
   height: 68px;
 }
+.features article:last-of-type .sub-features div span{
+  color: #fff;
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 28px; 
+  text-transform: uppercase;
+}
+ .animated-para {
+  animation: slideI 2s ease infinite alternate;
+  text-align: center;
+  font-size: 18px;
+  font-weight: bold;
+  padding: 10px;
+}
 
+@keyframes slideI {
+  0% {
+      transform: translateX(0);
+      opacity: 0;
+  }
+  100% {
+      transform: translateX(20px);
+      opacity: 1;
+  }
+} 
+.animated-para2 {
+  overflow: hidden; 
+  white-space: nowrap;
+  animation: typing 5s steps(40) infinite alternate;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+@keyframes typing {
+  0% {
+      width: 0;
+  }
+  100% {
+      width: 100%;
+  }
+} 
+ .animated-para3 {
+  font-size: 18px;
+  font-weight: bold;
+  animation: fadeInOut 3s ease infinite;
+}
+
+@keyframes fadeInOut {
+  0%, 100% {
+      opacity: 0;
+  }
+  50% {
+      opacity: 1;
+  }
+}
+
+.features article  .logo-feature{
+ animation:  mover 1s infinite alternate;
+}
+@keyframes mover {
+  0% { transform: translateY(0); }
+  100% { transform: translateY(-10px); }
+}
 .features article  .logo-feature img{
   height: 550px;
   object-fit: contain;
 }
 .features-design{
   column-gap: 25px;
+}
+.animation{
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0);
+  animation: pulse 2s infinite alternate;
+}
+@keyframes pulse {
+  0% {
+    transform: scale(1);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0);
+  }
+  100% {
+    transform: scale(1.05);
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0);
+  }
 }
 @media (max-width:600px) {
   .features article:last-of-type .sub-features{

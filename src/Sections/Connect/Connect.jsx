@@ -21,7 +21,7 @@ const Connect = () => {
               <label htmlFor="subject">الموضوع</label>
               <input type="text" id='subject' />
             </div>
-            <div className='animate-text'>
+            <div className='animate-text animation'>
               <button type='submit'> تأكيد وإرسال </button>
               <span> <img src={"../../images/submit.png"} alt="submit-arrow" /></span>
             </div>

@@ -26,6 +26,7 @@
 .works .work-img img{
   height: 377px;
   object-fit: contain;
+  animation:  mover 1s infinite alternate;
 }
 @media (max-width :537px){
   .works article{

@@ -14,12 +14,17 @@
   width: 102px;
   height: 102px;
   object-fit: contain;
+  transition: transform 0.3s ease-in-out;
 }
 .line span{
   color: #989898;
   font-size: 18px;
   font-weight: 700;
   line-height: 189.5%; 
+}
+
+.step img:hover {
+  transform: rotate(360deg); 
 }
 @media (max-width :1001px){
   .line{

@@ -24,7 +24,7 @@ const Header = () => {
             <article>
               <div className='wrapper-images'>
                 <span className='img-left'> <img src={"../../images/welcome.png"}  alt="" /></span>
-                <span className='img-center render'><img src={"../../images/splach.png"}  alt="" /></span>
+                <span className='img-center'><img src={"../../images/splach.png"}  alt="" /></span>
                 <span className='img-right'> <img src={"../../images/filter.png"}  alt="" /></span>
               </div>
               <div className='animate-text'>

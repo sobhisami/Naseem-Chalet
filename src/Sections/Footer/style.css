@@ -45,11 +45,24 @@ footer article div{
 }
 footer article div:last-of-type span{
   color: #FFF;
-font-size: 14px;
-font-weight: 400;
-line-height: 14px; 
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 14px; 
+}
+footer article div:last-of-type span span{
+  font-size: 15px;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  animation: lightOnOff 1.5s infinite alternate; 
 }
 
+@keyframes lightOnOff {
+  0% {
+    color: #0602ff; 
+  }
+  100% {
+    color: #fff; /* Change text color to white */
+  }
+}
 footer article div:first-of-type a {
   position: relative; 
   display: block;

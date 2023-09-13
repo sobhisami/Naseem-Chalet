@@ -20,6 +20,7 @@
  justify-content: center;
  align-items: center;
  column-gap: 70px;
+ animation:  mover 1s infinite alternate;
 }
 .creativity-wrapper section article img{
   height: 500px;

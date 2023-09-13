@@ -159,6 +159,8 @@ header .download article div:first-of-type img{
 /* Apply the animation to the container and the individual spans */
 .wrapper-images {
   animation: moveFromLeftToRight 2s ease-in-out forwards;
+  animation:  mover 1s infinite alternate;;
+
 }
 
 .img-left,
@@ -189,6 +191,7 @@ header .download article div:first-of-type img{
 .light-up-image {
   animation: lightUp 2s ease-in-out infinite alternate; 
 }
+
 @media (max-width:600px) {
   .header{
   margin-bottom:  30px;

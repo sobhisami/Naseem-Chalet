@@ -7,7 +7,7 @@ const Creativity = () => {
         <section>
           <SubTitle>واجهات التطبيق</SubTitle>
           <Title>واجهات ابداعية</Title>
-          <p>مجموعة من الواجهات الجذابة وسهلة الاستخدام التي تهدف لراحة <br /> المستخدم بكافة السبل اثناء استخدام التطبيق</p>
+          <p className='animated-para3'>مجموعة من الواجهات الجذابة وسهلة الاستخدام التي تهدف لراحة <br /> المستخدم بكافة السبل اثناء استخدام التطبيق</p>
           <article className='animate-text'>
             <img src={"../../images/crai-left.png"} alt="crai-left" />
             <img className='crai-center' src={"../../images/crai-center.png"} alt="crai-center" />
