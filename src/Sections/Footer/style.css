@@ -57,7 +57,7 @@ footer article div:last-of-type span span{
 
 @keyframes lightOnOff {
   0% {
-    color: #0602ff; 
+    color: #6DBBE4; 
   }
   100% {
     color: #fff; /* Change text color to white */
@@ -85,7 +85,7 @@ footer article div:first-of-type a::before {
   width: 100%;
   height: 100%;
   border-radius: 50%;
-  background: #103cff;
+  background: #103cff5b;
   transition: .5s;
   transform: scale(.9);
   z-index: -1;

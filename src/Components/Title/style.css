@@ -16,14 +16,14 @@
   transition: .5s linear
 }
 .y-color:hover{
-  text-shadow: 0 0 10px rgb(197, 197, 250),
-  0 0 20px rgb(197, 197, 250), 
-  0 0 40px rgb(197, 197, 250);
+  text-shadow: 0 0 10px rgba(197, 197, 250, 0.521),
+  0 0 20px rgba(197, 197, 250, 0.493), 
+  0 0 40px rgba(197, 197, 250, 0.479);
 }
 .t-color:hover{
-  text-shadow: 0 0 10px blue,
-               0 0 20px blue, 
-               0 0 40px blue;
+  text-shadow: 0 0 10px rgba(0, 0, 255, 0.411),
+               0 0 20px #37b2f5, 
+               0 0 40px #37b2f5;
 }
 @media (max-width:600px) {
   .title,.w-title{

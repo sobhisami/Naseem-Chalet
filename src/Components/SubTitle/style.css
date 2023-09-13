@@ -10,7 +10,7 @@ svg{
   height: 20px;
 }
 svg text {
-  stroke: #1D1D1D;
+  stroke: #1d1d1d2d;
   animation: textAnimate 5s infinite alternate;
 }
 
