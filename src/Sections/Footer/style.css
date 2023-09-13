@@ -25,6 +25,9 @@ footer .store{
   column-gap: 15px;
   padding-bottom: 50px;
 }
+footer .store img{
+  cursor: pointer;
+}
 footer hr{
   color: white;
   width: 100%;

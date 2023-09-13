@@ -19,7 +19,7 @@
  display: flex;
  justify-content: center;
  align-items: center;
- column-gap: 70px;
+ column-gap: 40px;
  animation:  mover 1s infinite alternate;
 }
 .creativity-wrapper section article img{
@@ -31,7 +31,7 @@
   object-fit: contain;
 }
 .creativity-wrapper section div{
-  padding: 60px 0 100px;
+  padding: 60px 0 50px;
   display: flex;
   justify-content: center;
   align-items: center;
