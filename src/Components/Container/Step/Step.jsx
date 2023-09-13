@@ -1,4 +1,3 @@
-import { useState } from "react"
 import "./style.css"
 const Step = ({src,alt,title}) => {
   return (
