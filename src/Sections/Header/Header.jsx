@@ -21,7 +21,7 @@ const Header = () => {
           <div className='download'>
             <SubTitle variant={"sub-title-w"}>حمله الأن</SubTitle>
             <Title variant="w-title">وقم بتوفير وقتك في البحث المطول <br /> عن أفضل الشاليهات</Title>
-            <div className='animate-text test'>
+              <div className='test'>
                 <img className='light-up-image' src={"../../images/appstore.png"} alt="appstore" />
                 <img className='light-up-image' src={"../../images/googlestore.png"} alt="googlestore" />
               </div>
