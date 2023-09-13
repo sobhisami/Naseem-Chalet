@@ -5,7 +5,7 @@ const App = () => {
     <>
     <Header/>
     <button className="top">
-     <img src={'../images/arrow-left.png'} alt="" />
+     <img src={'../images/arrow-right.png'} alt="" />
     </button>
     <Features/>
     <About/>
