@@ -155,7 +155,13 @@ header .download article div:first-of-type img{
     transform: translateX(0);
   }
 }
-
+.test{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  column-gap: 20px;
+  padding-top: 30px;
+}
 /* Apply the animation to the container and the individual spans */
 .wrapper-images {
   animation: moveFromLeftToRight 2s ease-in-out forwards;

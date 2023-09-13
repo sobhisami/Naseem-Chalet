@@ -21,6 +21,10 @@ const Header = () => {
           <div className='download'>
             <SubTitle variant={"sub-title-w"}>حمله الأن</SubTitle>
             <Title variant="w-title">وقم بتوفير وقتك في البحث المطول <br /> عن أفضل الشاليهات</Title>
+            <div className='animate-text test'>
+                <img className='light-up-image' src={"../../images/appstore.png"} alt="appstore" />
+                <img className='light-up-image' src={"../../images/googlestore.png"} alt="googlestore" />
+              </div>
             <article>
               <div className='wrapper-images'>
                 <span className='img-left'> <img src={"../../images/welcome.png"}  alt="" /></span>
@@ -28,8 +32,8 @@ const Header = () => {
                 <span className='img-right'> <img src={"../../images/filter.png"}  alt="" /></span>
               </div>
               <div className='animate-text'>
-                <img className='light-up-image' src={"../../images/appstore.png"} alt="appstore" />
-                <img className='light-up-image' src={"../../images/googlestore.png"} alt="googlestore" />
+                {/* <img className='light-up-image' src={"../../images/appstore.png"} alt="appstore" />
+                <img className='light-up-image' src={"../../images/googlestore.png"} alt="googlestore" /> */}
               </div>
             </article>
           </div>
