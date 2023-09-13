@@ -8,8 +8,8 @@ const Footer = () => {
           <Title variant="w-title">التطبيق متاح للتنزيل والتثبيت من متجر التطبيقات</Title>
           <p>للاستفادة من وظائف وخدمات التطبيق على جهازك المحمول قم بتحميله من المتجر الخاص بك حسب نوع نظام <br /> هاتفك وتمتع بعدها بخدمات التطبيق بكل أريحية</p>
           <div className='store animate-text'>
-            <img className='light-up-image' src={"../../images/googlestore.png"} alt="googlestore" />
-            <img className='light-up-image' src={"../../images/appstore.png"} alt="appstore" />
+            <img  src={"../../images/googlestore.png"} alt="googlestore" />
+            <img  src={"../../images/appstore.png"} alt="appstore" />
           </div>
           <hr />
           <article>
@@ -19,7 +19,7 @@ const Footer = () => {
               <a href=""><img src={"../../images/Facebook.png"} alt="Facebook" /></a>
             </div>
             <div className='animate-text'>
-              <span>© 2023 <span>Tweet Tech</span>. جميع الحقوق محفوظة لدى. </span>
+              <span dir='ltr'>© 2023 <span>Tweet Tech</span>. جميع الحقوق محفوظة لدى. </span>
               <img src={"../../images/logohead.svg"} alt="" />
             </div>
           </article>
