@@ -207,7 +207,8 @@ header .download article div:first-of-type img{
   margin-bottom:  30px;
   }
   header{
-    padding-bottom: 290px !important;
+    padding-top: 30px;
+    padding-bottom: 280px !important;
   }
   header .bar img{
   display: none;
