@@ -120,7 +120,7 @@ ul li a:hover:after {
   align-items: center;
   position: absolute;
   top: 30px;
-  right:60px;
+  right:80px;
 }  
 
 header .download article div:first-of-type img{
@@ -161,6 +161,9 @@ header .download article div:first-of-type img{
   align-items: center;
   column-gap: 20px;
   padding-top: 30px;
+}
+.test .point{
+  cursor: pointer;
 }
 /* Apply the animation to the container and the individual spans */
 .wrapper-images {
@@ -287,5 +290,6 @@ header .download article div:first-of-type img{
     right: 680px;
   }
 }
+
 
 
