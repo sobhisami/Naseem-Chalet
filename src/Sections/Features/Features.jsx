@@ -13,7 +13,7 @@ const Features = () => {
             </p>
           </article>
           <article>
-            <div className='sub-features animate-text'>
+            <div className='sub-features'>
                 <div className='features-design animation'>
                   <span>تصميم مميز</span>
                   <img src={"../../images/star.png"} alt="star" />
