@@ -15,7 +15,7 @@ header .bar img{
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 50px 0 106px;
+  padding: 50px 0 80px;
 }
 
 .header header{
@@ -159,7 +159,7 @@ header .download article div:first-of-type img{
 /* Apply the animation to the container and the individual spans */
 .wrapper-images {
   animation: moveFromLeftToRight 2s ease-in-out forwards;
-  animation:  mover 1s infinite alternate;;
+  animation:  mover 1s infinite alternate;
 
 }
 

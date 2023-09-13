@@ -17,6 +17,7 @@
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
+  animation: moveFromLeftToRight 2s ease-in-out forwards;
 }
 .sub-line,.sub-line-tow{
   display: none;

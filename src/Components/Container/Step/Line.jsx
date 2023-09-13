@@ -1,6 +1,6 @@
 const Line = ({num}) => {
   return (
-    <div className="line animate-text">
+    <div className="line">
       <span>
         {num}
       </span>

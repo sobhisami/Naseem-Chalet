@@ -9,7 +9,7 @@ footer{
   justify-content: center;
   align-items: center;
   text-align: center;
-  padding: 100px 0;
+  padding: 60px 0;
 }
 footer p{
 color:  #FFF;
@@ -23,7 +23,7 @@ footer .store{
   justify-content: center;
   align-items: center;
   column-gap: 15px;
-  padding-bottom: 100px;
+  padding-bottom: 50px;
 }
 footer hr{
   color: white;
