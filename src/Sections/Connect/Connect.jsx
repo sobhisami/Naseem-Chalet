@@ -9,19 +9,19 @@ const Connect = () => {
           <Title>تواصل معنا</Title>
           <p>على استعداد دائم للاستماع إلى ملاحظات واقتراحات العملاء <br /> أو المستخدمين</p>
           <form>
-            <div>
+            <div className='animate-text'>
               <label htmlFor="name">الاسم</label>
               <input type="text"  id='name'/>
             </div>
-            <div>
+            <div className='animate-text'>
               <label htmlFor="title">عنوان الموضوع</label>
               <input type="text" id='title' />
             </div>
-            <div>
+            <div className='animate-text'>
               <label htmlFor="subject">الموضوع</label>
               <input type="text" id='subject' />
             </div>
-            <div>
+            <div className='animate-text'>
               <button type='submit'> تأكيد وإرسال </button>
               <span> <img src={"../../images/submit.png"} alt="submit-arrow" /></span>
             </div>

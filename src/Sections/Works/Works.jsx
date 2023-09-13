@@ -23,7 +23,7 @@ const Works = () => {
            <span className='sub-line'> {"-------->"} </span>
            <Step src={"../../images/time.png"} alt="time" title="تمتع بوقتك"/>
          </article>
-         <div className='work-img'><img src={"../../images/work.png"} alt="work" /></div>
+         <div className='work-img animate-text'><img src={"../../images/work.png"} alt="work" /></div>
        </section>
       </Container>
     </div>

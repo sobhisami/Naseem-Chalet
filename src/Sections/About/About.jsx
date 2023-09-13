@@ -5,15 +5,15 @@ const About = () => {
     <div className='about-wrapper'>
       <Container variant="container-small">
         <section className='about'>
-         <img src={"../../images/vidue.png"} alt="vidue" />
-         <article>
+         <img className='animate-text' src={"../../images/vidue.png"} alt="vidue" />
+         <article className='animate-text'>
            <SubTitle variant="sub-title-w">فيديو التطبيق </SubTitle>
            <Title variant="w-title">فيديو تعريفي عن التطبيق </Title>
            <p>
            يعمل الفيديو التعريفي على استعراض ملامح التطبيق وكيفية استخدامه <br /> بشكل سهل وفعال
            </p>
          </article>
-         <img src={"../../images/interviwe.png"} alt="interviwe" />
+         <img className='animate-text' src={"../../images/interviwe.png"} alt="interviwe" />
         </section>
       </Container>
     </div>

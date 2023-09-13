@@ -1,8 +1,31 @@
 .sub-title,.sub-title-w{
-color: var(--03, #1D1D1D);
+color:  #1D1D1D;
 font-size: 10px;
 font-weight: 400;
 }
 .sub-title-w{
   color: #FFF !important;
+}
+svg{
+  height: 20px;
+}
+svg text {
+  stroke: #1D1D1D;
+  animation: textAnimate 5s infinite alternate;
+}
+
+@keyframes textAnimate {
+  0% {
+    stroke-dasharray: 0 50%;
+    stroke-dashoffset:  20%;
+    fill:hsl(189, 68%, 75%)
+
+  }
+  
+  100% {
+    stroke-dasharray: 50% 0;
+    stroke-dashoffset: -20%;
+    fill: hsla(189, 68%, 75%,0%)
+  }
+  
 }

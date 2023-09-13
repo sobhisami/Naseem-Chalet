@@ -5,7 +5,7 @@ const Features = () => {
     <div>
       <Container>
         <section className='features'>
-          <article>
+          <article className='animate-text'>
             <SubTitle>مميزات التطبيق</SubTitle>
             <Title>مميزات رائعة</Title>
             <p>
@@ -13,7 +13,7 @@ const Features = () => {
             </p>
           </article>
           <article>
-            <div className='sub-features'>
+            <div className='sub-features animate-text'>
               <div className='features-design'>
                 <span>تصميم مميز</span>
                 <img src={"../../images/star.png"} alt="star" />
@@ -31,7 +31,7 @@ const Features = () => {
                 <img src={"../../images/hightQ.png"} alt="hightQ" />
               </div>
             </div>
-            <div className='logo-feature'>
+            <div className='logo-feature animate-text'>
               <img src={"../../images/feature.png"} alt="" />
             </div>
           </article>

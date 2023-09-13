@@ -17,6 +17,7 @@ header .bar img{
   align-items: center;
   padding: 50px 0 106px;
 }
+
 .header header{
   padding-bottom: 350px;
 }
@@ -25,12 +26,53 @@ header .bar img{
 }
 .header ul li a{
   text-decoration: none;
-  color: var(--04, #FFF);
+  color: #FFF;
   font-size: 18px;
   font-weight: 400;
+  transition:all 0.3s ease;
+  position: relative;
+  padding: 10px 20px;
+  transition: all 0.3s ease;
 }
 .header ul li a:hover{
-  color: black;
+  color: #FFF;
+  background-color: rgba(0, 0, 0, 0.712);
+  border-radius: 10px;
+}
+ul li a:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border-top: 2px solid #262626;
+  border-bottom: 2px solid #262626;
+  transform: scaleY(2);
+  opacity: 0;
+  transition: 0.3s;
+}
+ul li a:after {
+  content: "";
+  position: absolute;
+  top: 2px;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #262626;
+  transform: scale(0);
+  opacity: 0;
+  transition: 0.3s;
+  z-index: -1;
+}
+
+ul li a:hover:before {
+  transform: scaleY(1);
+  opacity: 1;
+}
+ul li a:hover:after {
+  transform: scaleY(1);
+  opacity: 1;
 }
 .header ul li a.active{
   font-weight: 800;
@@ -103,6 +145,49 @@ header .download article div:first-of-type img{
 }
 .ltr .img-left{
   margin-right: 155px;
+}
+/* Define the keyframes animation */
+@keyframes moveFromLeftToRight {
+  0% {
+    transform: translateX(100%);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+
+/* Apply the animation to the container and the individual spans */
+.wrapper-images {
+  animation: moveFromLeftToRight 2s ease-in-out forwards;
+}
+
+.img-left,
+.img-center,
+.img-right {
+  animation: moveFromLeftToRight 2s ease-in-out forwards;
+}
+
+/* Additional styling for the spans if needed */
+.img-left,
+.img-center,
+.img-right {
+  padding: 10px; /* Add any desired padding or styling */
+}
+/* Apply the animation to the image */
+
+@keyframes lightUp {
+  0% {
+    opacity: 0.2; 
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.5); 
+  }
+  100% {
+    opacity: 1; /* Fully visible */
+    box-shadow: 0 0 20px rgba(255, 255, 255, 1); 
+  }
+}
+
+.light-up-image {
+  animation: lightUp 2s ease-in-out infinite alternate; 
 }
 @media (max-width:600px) {
   .header{
