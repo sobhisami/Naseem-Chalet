@@ -19,7 +19,7 @@ const Footer = () => {
               <a href=""><img src={"../../images/Facebook.png"} alt="Facebook" /></a>
             </div>
             <div className='animate-text'>
-              <span dir='ltr'>© 2023 <span>Tweet Tech</span>. جميع الحقوق محفوظة لدى. </span>
+              <span dir='ltr'>© 2023 <span>Tweet Tech</span> جميع الحقوق محفوظة لدى </span>
               <img src={"../../images/logohead.svg"} alt="" />
             </div>
           </article>
