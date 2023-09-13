@@ -7,7 +7,7 @@ const Works = () => {
        <section className='works'>
          <SubTitle>آلية العمل</SubTitle>
          <Title>كيف يعمل التطبيق</Title>
-         <p className='animated-para2'>
+         <p className='animated-para'>
          مجموعة من الخطوات والعمليات التي تتيح للمستخدمين الاستفادة <br /> من وظائف التطبيق بكفاءة.
          </p>
          <article>

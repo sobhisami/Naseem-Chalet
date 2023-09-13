@@ -22,8 +22,8 @@ const Header = () => {
             <SubTitle variant={"sub-title-w"}>حمله الأن</SubTitle>
             <Title variant="w-title">وقم بتوفير وقتك في البحث المطول <br /> عن أفضل الشاليهات</Title>
               <div className='test'>
-                <img className='light-up-image point' src={"../../images/appstore.png"} alt="appstore" />
-                <img className='light-up-image point' src={"../../images/googlestore.png"} alt="googlestore" />
+                <img className='point' src={"../../images/appstore.png"} alt="appstore" />
+                <img className='point' src={"../../images/googlestore.png"} alt="googlestore" />
               </div>
             <article>
               <div className='wrapper-images'>

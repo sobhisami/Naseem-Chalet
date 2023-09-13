@@ -160,7 +160,8 @@ header .download article div:first-of-type img{
   justify-content: center;
   align-items: center;
   column-gap: 20px;
-  padding-top: 30px;
+  padding-bottom: 25px;
+  padding-top: 66px;
 }
 .test .point{
   cursor: pointer;
@@ -206,7 +207,7 @@ header .download article div:first-of-type img{
   margin-bottom:  30px;
   }
   header{
-    padding: 40px 0;
+    padding-bottom: 290px !important;
   }
   header .bar img{
   display: none;
@@ -216,6 +217,7 @@ header .download article div:first-of-type img{
   }
   .header .download article div:first-of-type{
     right: -1px;
+    top: 55px;
   }
   .header .download article div:last-of-type{
     top: 240px;
