@@ -1,3 +1,4 @@
+import { Slider } from "./Components"
 import { About, Connect, Creativity, Features, Footer, Header ,Works} from "./Sections"
 
 const App = () => {
@@ -11,6 +12,7 @@ const App = () => {
     <About/>
     <Works/>
     <Creativity/>
+    <Slider/>
     <Connect/>
     <Footer/>
     </>
