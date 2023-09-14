@@ -17,6 +17,7 @@ window.onload = () => {
       behavior: 'smooth',
     });
   };
+  
 };
 
 
@@ -59,3 +60,5 @@ function animateElements() {
 document.addEventListener('scroll', animateElements);
 
 animateElements();
+
+/*custom dropdown */

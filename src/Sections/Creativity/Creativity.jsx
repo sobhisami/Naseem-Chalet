@@ -2,7 +2,7 @@ import {Container, SubTitle, Title} from '../../Components'
 import './style.css'
 const Creativity = () => {
   return (
-    <div className='creativity-wrapper'>
+    <div className='creativity-wrapper' id="creativity">
       <Container>
         <section>
           <SubTitle>واجهات التطبيق</SubTitle>

@@ -2,14 +2,14 @@ import {Container, Title} from '../../Components'
 import './style.css'
 const Footer = () => {
   return (
-    <div className='footer'>
+    <div className='footer' id="footer">
       <Container>
         <footer>
           <Title variant="w-title">التطبيق متاح للتنزيل والتثبيت من متجر التطبيقات</Title>
           <p>للاستفادة من وظائف وخدمات التطبيق على جهازك المحمول قم بتحميله من المتجر الخاص بك حسب نوع نظام <br /> هاتفك وتمتع بعدها بخدمات التطبيق بكل أريحية</p>
           <div className='store animate-text'>
-            <img  src={"../../images/googlestore.png"} alt="googlestore" />
-            <img  src={"../../images/appstore.png"} alt="appstore" />
+            <a href="#"><img  src={"../../images/googlestore.png"} alt="googlestore" /></a>
+            <a href="#"><img  src={"../../images/appstore.png"} alt="appstore" /></a>
           </div>
           <hr />
           <article>

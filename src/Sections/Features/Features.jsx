@@ -4,7 +4,7 @@ const Features = () => {
   return (
     <div>
       <Container>
-        <section className='features'>
+        <section className='features' id="about">
           <article className='animate-text'>
             <SubTitle>مميزات التطبيق</SubTitle>
             <Title>مميزات رائعة</Title>

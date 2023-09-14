@@ -4,7 +4,7 @@ const Connect = () => {
   return (
     <div>
       <Container>
-        <section className='connect'>
+        <section className='connect' id="contact">
           <SubTitle>فورم التواصل</SubTitle>
           <Title>تواصل معنا</Title>
           <p>على استعداد دائم للاستماع إلى ملاحظات واقتراحات العملاء <br /> أو المستخدمين</p>

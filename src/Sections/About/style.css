@@ -3,6 +3,7 @@
   background-color: var(--bgColor);
   background-blend-mode: overlay;
 }
+
 .about{
  display: flex;
  justify-content: space-between;
@@ -23,7 +24,7 @@
   font-weight: 300;
   line-height: 189.5%; 
 }
-.about img:first-of-type{
+.about a img:first-of-type{
   height: 70px;
   object-fit: contain;
   border-radius: 50%;

@@ -5,7 +5,7 @@ const About = () => {
     <div className='about-wrapper'>
       <Container variant="container-small">
         <section className='about'>
-         <img className='animate-text animation' src={"../../images/vidue.png"} alt="vidue" />
+         <a href="#"> <img className='animate-text animation' src={"../../images/vidue.png"} alt="vidue" /></a>
          <article className='animate-text'>
            <SubTitle variant="sub-title-w">فيديو التطبيق </SubTitle>
            <Title variant="w-title">فيديو تعريفي عن التطبيق </Title>

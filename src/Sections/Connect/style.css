@@ -34,6 +34,9 @@
   border-bottom: 1px solid rgba(0, 0, 0, 0.30);
   text-align: start;
 }
+.connect form div input:focus{
+  border-bottom: 2px solid #4cb5ee;
+}
 .connect form div:last-of-type{
   display: flex;
   justify-content: center;

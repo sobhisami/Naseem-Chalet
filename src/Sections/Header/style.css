@@ -6,10 +6,10 @@
   border-bottom-right-radius: 105px;
   margin-bottom: 330px;
 }
-header .bar img{
-  height: 30px;
-  object-fit: cover;
+
+header .bar svg{
   display: none;
+  cursor: pointer;
 }
 .header ul{
   display: flex;
@@ -17,9 +17,42 @@ header .bar img{
   align-items: center;
   padding: 50px 0 80px;
 }
-
+.header ul.open{
+  display: block;
+}
 .header header{
   padding-bottom: 350px;
+}
+
+.custom-select {
+  appearance: none;
+  border: 0;
+  outline: 0;
+  font: inherit;
+  height: 2.5em;
+  padding: 0 4em 0 1em;
+  background: url(https://upload.wikimedia.org/wikipedia/commons/9/9d/Caret_down_font_awesome_whitevariation.svg) no-repeat right 0.8em center / 1.4em, linear-gradient(to left, rgba(255, 255, 255, 0.3) 3em, rgba(255, 255, 255, 0.2) 3em);
+  color: white;
+  border-radius: 0.25em;
+  box-shadow: 0 0 1em 0 rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+}
+
+.custom-select option {
+  color: inherit;
+  background-color: #6AB7E1;
+}
+
+/* Remove focus outline */
+.custom-select:focus {
+  outline: none;
+}
+.rtl .custom-select option{
+  direction: ltr;
+}
+/* Remove IE arrow */
+.custom-select::-ms-expand {
+  display: none;
 }
 .header ul li {
   list-style: none;
@@ -155,7 +188,7 @@ header .download article div:first-of-type img{
     transform: translateX(0);
   }
 }
-.test{
+.download-logos{
   display: flex;
   justify-content: center;
   align-items: center;
@@ -163,7 +196,7 @@ header .download article div:first-of-type img{
   padding-bottom: 25px;
   padding-top: 66px;
 }
-.test .point{
+.download-logos .point{
   cursor: pointer;
 }
 /* Apply the animation to the container and the individual spans */
@@ -210,15 +243,25 @@ header .download article div:first-of-type img{
     padding-top: 30px;
     padding-bottom: 280px !important;
   }
-  header .bar img{
-  display: none;
+  header .bar svg{
+  display: block;
+  }
+  header ul .img-list{
+    display: none;
   }
   .header ul{
     display: none;
+    padding: 13px 0 0px;
+  }
+  .header ul li{
+    padding: 10px ;
   }
   .header .download article div:first-of-type{
     right: -1px;
     top: 55px;
+  }
+  .download-logos{
+    padding-top: 30px;
   }
   .header .download article div:last-of-type{
     top: 240px;
