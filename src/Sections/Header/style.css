@@ -336,9 +336,14 @@ header .download article div:first-of-type img{
     right: 680px;
   }
 }
-@media (min-width:1361px) {
+@media(min-width:1361px) {
   .header .download article div:first-of-type{
     right:88px
+  }
+}
+@media(min-width:1800px) {
+  .header .download article div:first-of-type{
+    right:300px
   }
 }
 
