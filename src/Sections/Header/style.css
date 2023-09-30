@@ -338,6 +338,7 @@ header .download article div:first-of-type img{
 }
 @media(min-width:1361px) {
   .header .download article div:first-of-type{
+    /* right:88px */
     right:143px;
   }
 }
